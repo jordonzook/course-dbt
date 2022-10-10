@@ -33,8 +33,4 @@ sources:
       
       - name: users
         loaded_at_field: created_at
-      
-      - name: superheroes 
-        loaded_at_field: created_at
-        description: >
-          Contains demographic information about each superhero dbt 
+

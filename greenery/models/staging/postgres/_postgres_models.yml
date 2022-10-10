@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_addresses
-    description: Addresses on the platform 
+    description: Physical addresses provided by users
     columns:
       - name: address_id
       - name: address
@@ -11,7 +11,7 @@ models:
       - name: country
   
   - name: stg_events
-    description: Events on the platform
+    description: Events generated from users on the website and automated notifications
     columns:
       - name: event_id
       - name: session_id
@@ -23,7 +23,7 @@ models:
       - name: product_id
   
   - name: stg_orders
-    description: Orders on the platform
+    description: Orders placed from the website, updated regularly by fulfillment processing
     columns:
       - name: order_id
       - name: user_id
@@ -40,7 +40,7 @@ models:
       - name: status
 
   - name: stg_products
-    description: Products on the platform
+    description: Product information and inventory status, updated regularly by fulfillment processing
     columns:
       - name: product_id
       - name: name
@@ -48,14 +48,14 @@ models:
       - name: inventory
   
   - name: stg_promos
-    description: Promos on the platform
+    description: Promotions and discounts
     columns:
       - name: promo_id
       - name: discount
       - name: status
 
   - name: stg_users
-    description: Promos on the platform
+    description: User details and contact information
     columns:
       - name: user_id
       - name: first_name
