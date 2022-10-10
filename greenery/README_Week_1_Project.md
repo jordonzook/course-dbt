@@ -1,4 +1,4 @@
-#Week 1 Project Summary
+# Week 1 Project Summary
 
 How many users do we have? 
 > 130
