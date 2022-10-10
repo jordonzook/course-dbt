@@ -1,3 +1,8 @@
+[Week 1 Project Summary] (README_Week_1_Project.md)
+
+
+---
+
 Welcome to your new dbt project!
 
 ### Using the starter project
