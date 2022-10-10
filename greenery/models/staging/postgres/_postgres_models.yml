@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: Addresses on the platform 
+    columns:
+      - name: address_id
+      - name: address
+      - name: zipcode
+      - name: state
+      - name: country
+  
+  - name: stg_events
+    description: Events on the platform
+    columns:
+      - name: event_id
+      - name: session_id
+      - name: user_id
+      - name: page_url
+      - name: created_at
+      - name: event_type
+      - name: order_id
+      - name: product_id
+  
+  - name: stg_orders
+    description: Orders on the platform
+    columns:
+      - name: order_id
+      - name: user_id
+      - name: promo_id
+      - name: address_id
+      - name: created_at
+      - name: order_cost
+      - name: shipping_cost
+      - name: order_total
+      - name: tracking_id
+      - name: shipping_service
+      - name: estimated_delivery_at
+      - name: delivered_at
+      - name: status
+
+  - name: stg_products
+    description: Products on the platform
+    columns:
+      - name: product_id
+      - name: name
+      - name: price
+      - name: inventory
+  
+  - name: stg_promos
+    description: Promos on the platform
+    columns:
+      - name: promo_id
+      - name: discount
+      - name: status
+
+  - name: stg_users
+    description: Promos on the platform
+    columns:
+      - name: user_id
+      - name: first_name
+      - name: last_name
+      - name: email
+      - name: phone_number
+      - name: created_at
+      - name: updated_at
+      - name: address_id
