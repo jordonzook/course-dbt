@@ -1,4 +1,4 @@
-[Week 1 Project Summary] (README_Week_1_Project.md)
+[Week 1 Project Summary](README_Week_1_Project.md)
 
 
 ---
